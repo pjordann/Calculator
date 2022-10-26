@@ -1,6 +1,6 @@
 # GUI Calculator
 
-Graphical UI calculator to get into Python programming language.
+Simple Graphical UI calculator to get into Python programming language.
 
 ## Description
 
