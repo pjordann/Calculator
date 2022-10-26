@@ -16,5 +16,5 @@ git clone https://github.com/pjordann/Calculator
 
 ### Executing program
 ```
-python3 calculadora.py
+python3 calculator.py
 ```
