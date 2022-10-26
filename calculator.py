@@ -30,6 +30,8 @@ class Calculadora:
 
 # con los parámetros, creamos el botón
 def crearBoton(texto, numero, ancho, tipoFuente, tamaño_fuente, colorTexto, fila, columna):
+    # si quitamos el lambda, automáticamente llamaría a la función de primeras,
+    # sin necesidad de darle al 1
     boton = tk.Button(gui, text=texto, command=lambda: calculadora.expresion_anyadir(numero), 
     width=ancho, font=(tipoFuente, tamaño_fuente), foreground=colorTexto, highlightbackground=color)
     
@@ -49,10 +51,7 @@ gui.title("Calculator")
 input_expresion = tk.Text(gui, height=2, width=16, font=("Arial", 24), bg=color, fg="#FFFFFF", highlightbackground=color)
 input_expresion.grid(columnspan=5)   # cinco columnas
 
-
 calculadora = Calculadora(input_expresion)
-# si quitamos el lambda, automáticamente llamaría a la función de primeras,
-# sin necesidad de darle al 1
 
 # creamos botón 1..9
 crearBoton("1",1,7,"Arial",14,"#ffffff",2,1)
