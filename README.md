@@ -28,6 +28,8 @@ python3 calculator.py
 ```
 
 ### Screenshots
-<img src="https://github.com/pjordann/Calculator/blob/main/images/1.png" height="200" />
-<img src="https://github.com/pjordann/Calculator/blob/main/images/2.png" height="200" />
-<img src="https://github.com/pjordann/Calculator/blob/main/images/3.png" height="200" />
+<p float="left">
+  <img src="https://github.com/pjordann/Calculator/blob/main/images/1.png" height="200" />
+  <img src="https://github.com/pjordann/Calculator/blob/main/images/2.png" height="200" />
+  <img src="https://github.com/pjordann/Calculator/blob/main/images/3.png" height="200" />
+</p>
