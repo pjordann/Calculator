@@ -12,7 +12,7 @@ This project uses [Tkinter](https://docs.python.org/es/3/library/tkinter.html) l
 
 * python3
   ```sh
-  sudo apt-get install python3.8
+  sudo apt-get install python3
   ```
 
 ### Installing
