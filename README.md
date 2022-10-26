@@ -8,6 +8,14 @@ This project uses [Tkinter](https://docs.python.org/es/3/library/tkinter.html) t
 
 ## Getting Started
 
+### Prerequisites
+
+* python3
+  ```sh
+  sudo apt-get install python3.8
+  ```
+
+
 ### Installing
 
 ```
@@ -18,3 +26,8 @@ git clone https://github.com/pjordann/Calculator
 ```
 python3 calculadora.py
 ```
+
+### Screenshots
+![alt text](https://github.com/pjordann/Calculator/blob/main/images/1.png)
+![alt text](https://github.com/pjordann/Calculator/blob/main/images/2.png)
+![alt text](https://github.com/pjordann/Calculator/blob/main/images/3.png)
